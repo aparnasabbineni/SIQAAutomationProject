@@ -8,6 +8,10 @@ packages:
   gitUsername: aparnasabbineni
   gitBranch: main
 services:
+- serviceName: project.siqaautomation.integrations:ServiceLink
+  packages:
+  - name: SIQAAutomationProject
+    version: "1.0"
 - serviceName: project.siqaautomation.integrations:debugLog
   packages:
   - name: SIQAAutomationProject
