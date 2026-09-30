@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: SIQAAutomationProject
+  gitServerName: aparnasabbineniShared
+  gitUrl: https://github.com/aparnasabbineni
+  gitUsername: aparnasabbineni
+  gitBranch: main
