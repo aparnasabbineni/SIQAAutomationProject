@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/aparnasabbineni
   gitUsername: aparnasabbineni
   gitBranch: main
+services:
+- serviceName: project.siqaautomation.integrations:debugLog
+  packages:
+  - name: SIQAAutomationProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1212
