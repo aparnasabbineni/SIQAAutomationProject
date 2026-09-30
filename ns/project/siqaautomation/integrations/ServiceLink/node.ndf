@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Aparna.Sabbineni@ibm.com</value>
-    <value name="createdDate">2026-09-30T09:36:15.987151017Z</value>
-    <value name="lastModifiedDate">2026-09-30T09:36:15.987151017Z</value>
+    <value name="lastModifiedBy">Aparna.Sabbineni@ibm.com</value>
+    <value name="lastModifiedDate">2026-09-30T09:37:33.238515767Z</value>
     <value name="displayName">ServiceLink</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -68,6 +67,8 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">debugLog</value>
@@ -78,6 +79,20 @@
           <value name="displayName">Cloud Designtime</value>
           <value name="agentGroup">default</value>
           <value name="executionPlaneType">cloud</value>
+        </record>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1</value>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <value name="name">debugLog</value>
+        <value name="displayName">debugLog</value>
+        <value name="itemType">INTEGRATIONS</value>
+        <record name="selectedRuntime" javaclass="com.wm.util.Values">
+          <value name="agentName">SLVRT</value>
+          <value name="displayName">SLVRT</value>
+          <value name="agentGroup">default</value>
+          <value name="executionPlaneType">onprem</value>
         </record>
         <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
