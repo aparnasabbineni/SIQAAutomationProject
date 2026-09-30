@@ -103,7 +103,7 @@
 
   <!-- nodes -->
 
-<MAPSET NAME="Setter" OVERWRITE="false" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$internal_runtimeAlias;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$internal_runtimeAlias;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
@@ -112,7 +112,7 @@
 </DATA>
 </MAPSET>
 
-<MAPSET NAME="Setter" OVERWRITE="false" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$internal_agentGroup;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$internal_agentGroup;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
@@ -234,7 +234,7 @@
 
   <!-- nodes -->
 
-<MAPSET NAME="Setter" OVERWRITE="false" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$internal_runtimeAlias;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$internal_runtimeAlias;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
@@ -243,7 +243,7 @@
 </DATA>
 </MAPSET>
 
-<MAPSET NAME="Setter" OVERWRITE="false" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$internal_agentGroup;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$internal_agentGroup;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
@@ -251,6 +251,19 @@
 </Values>
 </DATA>
 </MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/message;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">DebugLog For Runtime: Cloud DesignTime testing</value>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<MAP MODE="OUTPUT">
+  <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
 
@@ -352,7 +365,7 @@
 
   <!-- nodes -->
 
-<MAPSET NAME="Setter" OVERWRITE="false" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$internal_runtimeAlias;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$internal_runtimeAlias;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
@@ -361,7 +374,7 @@
 </DATA>
 </MAPSET>
 
-<MAPSET NAME="Setter" OVERWRITE="false" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$internal_agentGroup;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$internal_agentGroup;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
@@ -369,6 +382,19 @@
 </Values>
 </DATA>
 </MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/message;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">DebugLog For Runtime: Virtual Runtime testing</value>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<MAP MODE="OUTPUT">
+  <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
 </FLOW>

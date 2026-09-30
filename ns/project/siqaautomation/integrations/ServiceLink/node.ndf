@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Aparna.Sabbineni@ibm.com</value>
-    <value name="lastModifiedDate">2026-09-30T09:37:33.238515767Z</value>
+    <value name="lastModifiedDate">2026-09-30T09:38:34.435379686Z</value>
     <value name="displayName">ServiceLink</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -83,6 +83,11 @@
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <value name="nodePathForDebug">1</value>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <value name="name">debugLog</value>
@@ -95,6 +100,11 @@
           <value name="executionPlaneType">onprem</value>
         </record>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <value name="nodePathNew">2</value>
+        <number name="nodeIndex" type="Long">2</number>
+        <number name="lineNumberForDebug" type="Long">3</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
     <value name="modifiedBy">Aparna.Sabbineni@ibm.com</value>
