@@ -1,6 +1,10 @@
 version: "1.0"
 projectName: SIQAAutomationProject
 runtimes:
+- runtimeAlias: APSAERTOct06
+  assets:
+  - name: APSAAutomation
+    type: clientapplication
 - runtimeAlias: APSAERT_30Sep
   assets:
   - name: APSAClientApp
