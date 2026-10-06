@@ -5,3 +5,7 @@ runtimes:
   assets:
   - name: APSAClientApp
     type: clientapplication
+- runtimeAlias: Cloud Runtime
+  assets:
+  - name: SIQAAutomation
+    type: clientapplication
