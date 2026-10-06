@@ -1,6 +1,10 @@
 version: "1.0"
 projectName: SIQAAutomationProject
 runtimes:
+- runtimeAlias: APSAERT_Oct1st
+  assets:
+  - name: SIQAAutomationProject.project.siqaautomation.WmMQAdapter.com_wm_adapter_wmmqadapter_wmMQAdapter.connections.IBMMQ_1
+    type: connection
 - runtimeAlias: APSAERTOct06
   assets:
   - name: APSAAutomation
