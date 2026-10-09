@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Aparna.Sabbineni@ibm.com</value>
-    <value name="lastModifiedDate">2026-10-09T11:05:45.394890952Z</value>
+    <value name="lastModifiedDate">2026-10-09T11:13:24.708891858Z</value>
     <value name="displayName">debugLogWithSleep</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -67,6 +67,8 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">HTTP Connector</value>
@@ -93,7 +95,7 @@
           <value name="connectionType">http</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">siqacloudstorage.siqacloudstorage.sftpuser</value>
+        <value name="connectionNSName">project.siqaautomation.http.connections:siqacloudstorage.siqacloudstorage.sftpuser</value>
         <value name="connectionType">http</value>
         <value name="type">http</value>
         <value name="version">1</value>
@@ -130,6 +132,7 @@
         <number name="lineNumberForDebug" type="Long">2</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
+        <value name="nodePathForDebug">1</value>
       </record>
     </record>
     <value name="modifiedBy">Aparna.Sabbineni@ibm.com</value>

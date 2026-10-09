@@ -11,12 +11,12 @@
 
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
-    <number name="ttl" type="Long">120</number>
-    <Boolean name="isAsync">false</Boolean>
+    <value name="agentGroup">default</value>
     <value name="agentName">LOCAL</value>
     <value name="displayName">LOCAL</value>
-    <value name="agentGroup">default</value>
     <value name="executionPlaneType">local</value>
+    <Boolean name="isAsync">false</Boolean>
+    <number name="ttl" type="Long">120</number>
   </record>
 </Values>
 </STEP_LEVEL_PROPERTIES>
@@ -600,6 +600,15 @@
   <record name="xml" javaclass="com.wm.util.Values">
     <value name="X-INSTANCE-API-KEY">azI6ZDNkYTI2MzAtYjA4ZC00MjM4LTk0YzYtYzdjNmQ3ZmY1YThkOk11WFBVTlU4MktXajRxSjlVejhlRk9WOHBTN3EyRlMvTWtUZHdIUWdlN3c9</value>
   </record>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionAlias;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">project.siqaautomation.http.connections:siqacloudstorage.siqacloudstorage.sftpuser</value>
 </Values>
 </DATA>
 </MAPSET>
