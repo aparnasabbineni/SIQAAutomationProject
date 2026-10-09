@@ -64,15 +64,7 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1221
-- serviceName: project.siqaautomation.integrations:ServiceLink
-  packages:
-  - name: SIQAAutomationProject
-    version: "1.0"
-  - name: WmMQAdapter
-    version: 6.5.0.0.19
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-- serviceName: project.siqaautomation.integrations:debugLogWithInput
+- serviceName: project.siqaautomation.integrations:SLFOrJira
   packages:
   - name: SIQAAutomationProject
     version: "1.0"
@@ -92,6 +84,22 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1221
+- serviceName: project.siqaautomation.integrations:ServiceLink
+  packages:
+  - name: SIQAAutomationProject
+    version: "1.0"
+  - name: WmMQAdapter
+    version: 6.5.0.0.19
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.siqaautomation.integrations:debugLogWithInput
+  packages:
+  - name: SIQAAutomationProject
+    version: "1.0"
+  - name: WmMQAdapter
+    version: 6.5.0.0.19
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
