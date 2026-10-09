@@ -12,10 +12,10 @@
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
     <value name="agentGroup">default</value>
-    <value name="agentName">APSAERT_09</value>
-    <value name="displayName">APSAERT_09</value>
-    <value name="executionPlaneType">onprem</value>
-    <Boolean name="isAsync">true</Boolean>
+    <value name="agentName">LOCAL</value>
+    <value name="displayName">LOCAL</value>
+    <value name="executionPlaneType">local</value>
+    <Boolean name="isAsync">false</Boolean>
     <number name="ttl" type="Long">120</number>
   </record>
 </Values>
@@ -116,7 +116,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">APSAERT_09</value>
+  <value name="xml">LOCAL</value>
 </Values>
 </DATA>
 </MAPSET>
