@@ -12,10 +12,10 @@
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
     <value name="agentGroup">default</value>
-    <value name="agentName">LOCAL</value>
-    <value name="displayName">LOCAL</value>
-    <value name="executionPlaneType">local</value>
-    <Boolean name="isAsync">false</Boolean>
+    <value name="agentName">APSAERT_09</value>
+    <value name="displayName">APSAERT_09</value>
+    <value name="executionPlaneType">onprem</value>
+    <Boolean name="isAsync">true</Boolean>
     <number name="ttl" type="Long">120</number>
   </record>
 </Values>
@@ -103,11 +103,20 @@
 
   <!-- nodes -->
 
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/message;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">test debug Log</value>
+</Values>
+</DATA>
+</MAPSET>
+
 <MAPSET NAME="Setter" OVERWRITE="false" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$internal_runtimeAlias;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">LOCAL</value>
+  <value name="xml">APSAERT_09</value>
 </Values>
 </DATA>
 </MAPSET>
@@ -117,15 +126,6 @@
 
 <Values version="2.0">
   <value name="xml">default</value>
-</Values>
-</DATA>
-</MAPSET>
-
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/message;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">test debug Log</value>
 </Values>
 </DATA>
 </MAPSET>
