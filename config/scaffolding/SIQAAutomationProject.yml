@@ -12,6 +12,30 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
+- serviceName: project.siqaautomation.integrations:CRT_packageservice
+  packages:
+  - name: SIQAAutomationProject
+    version: "1.0"
+  - name: WmMQAdapter
+    version: 6.5.0.0.19
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: Onprem_Flowservices:AWS_S3_GetAllBuckets
+  packages:
+  - name: SIQAAutomationProject
+    version: "1.0"
+  - name: WmMQAdapter
+    version: 6.5.0.0.19
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: Flow:SF_oauth_rest_flow_1011
+  packages:
+  - name: SIQAAutomationProject
+    version: "1.0"
+  - name: WmMQAdapter
+    version: 6.5.0.0.19
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.siqaautomation.integrations:Copy_ServiceLink
   packages:
   - name: SIQAAutomationProject
